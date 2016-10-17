@@ -1,0 +1,14 @@
+# Forge folders
+.gradle/
+build/
+bin/
+
+# IDE folders
+.idea/
+*.iml
+eclipse/
+
+# Misc.
+.settings/
+Thumbs.db
+*.log

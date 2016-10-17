@@ -1,0 +1,13 @@
+[
+  {
+    "modid": "Currency",
+    "name": "Currency",
+    "description": "A simple mod that adds money-like items",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "https://github.com/Ionaru/Currency",
+    "authorList": [
+      "Ionaru"
+    ]
+  }
+]
