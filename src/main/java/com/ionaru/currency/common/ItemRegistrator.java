@@ -8,13 +8,13 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
 public class ItemRegistrator {
-	
-	public static void register(Item item, String UnlocalizedName, String InGameName) {
-		//In load
-		GameRegistry.registerItem(item, UnlocalizedName);
-		LanguageRegistry.addName(new ItemStack(item), InGameName);
-		item.setCreativeTab(Currency.TabCurrency);
-		System.out.println( "[" + Currency.modid + "] [INFO] " + InGameName + " loaded.");
-	}
+
+    public static void register(Item item, String UnlocalizedName, String InGameName) {
+        //In load
+        GameRegistry.registerItem(item, UnlocalizedName);
+        LanguageRegistry.addName(new ItemStack(item), InGameName);
+        item.setCreativeTab(Currency.TabCurrency);
+        System.out.println("[" + Currency.modid + "] [INFO] " + InGameName + " loaded.");
+    }
 
 }

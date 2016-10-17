@@ -2,6 +2,7 @@
 .gradle/
 build/
 bin/
+minecraft_instance/
 
 # IDE folders
 .idea/
