@@ -18,7 +18,7 @@ import cpw.mods.fml.relauncher.SideOnly;
 public class Currency {
 
     public static final String modid = "Currency";
-    public static final String version = "1.7.10 - 1.1";
+    public static final String version = "@VERSION@";
 
     @SidedProxy(clientSide = "com.ionaru.currency.client.ClientProxy", serverSide = "com.ionaru.currency.common.CommonProxy")
     public static CommonProxy proxy;

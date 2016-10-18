@@ -12,7 +12,7 @@ public class ItemRegistrator {
         GameRegistry.registerItem(item, UnlocalizedName);
         LanguageRegistry.addName(new ItemStack(item), InGameName);
         item.setCreativeTab(Currency.TabCurrency);
-        System.out.println("[" + Currency.modid + "] [INFO] " + InGameName + " loaded.");
+        System.out.println("[" + Currency.modid + "] " + InGameName + " loaded.");
     }
 
 }
