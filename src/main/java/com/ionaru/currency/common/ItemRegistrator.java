@@ -1,7 +1,5 @@
 package com.ionaru.currency.common;
 
-import com.ionaru.currency.item.Money;
-
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.LanguageRegistry;
 import net.minecraft.item.Item;
