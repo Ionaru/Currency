@@ -7,6 +7,12 @@ These items are best used as currency on a server.
 
 The items in this mod are not craftable with vanilla or modded resources, they only have recipes to add up and break down money into pieces.
 
+## Downloads
+
+You can download this mod in these places:
+* https://minecraft.curseforge.com/projects/currency/files
+* https://github.com/Ionaru/Currency/releases
+
 
 ## Developer information
 
