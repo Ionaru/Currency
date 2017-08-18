@@ -5,10 +5,11 @@ import net.minecraftforge.common.config.Configuration;
 
 import static net.minecraftforge.common.config.Configuration.CATEGORY_GENERAL;
 
-class ConfigurationLoader {
+public class ConfigurationLoader {
 
     private static Configuration config = null;
-    static boolean enableAllRecipes;
+    public static boolean enableAllRecipes;
+    public static boolean enableToolTips;
 
     ConfigurationLoader(FMLPreInitializationEvent event) {
         config = new Configuration(event.getSuggestedConfigurationFile());
@@ -22,6 +23,11 @@ class ConfigurationLoader {
                     "enableAllRecipes",                          // Property name
                     "true",                                      // Default value
                     "Whether recipes are enabled, default: true" // Comment
+            ).getBoolean();
+            enableToolTips = config.get(CATEGORY_GENERAL,      // Category
+                    "enableAllTooltips",                          // Property name
+                    "true",                                      // Default value
+                    "Whether tooltips are enabled, default: true" // Comment
             ).getBoolean();
         } catch (Exception e) {
             // Failed reading/writing, just continue
